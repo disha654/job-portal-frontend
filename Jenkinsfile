@@ -91,7 +91,7 @@ Jenkins
 
     failure {
       echo "❌ Pipeline failed, sending error email..."
-      mail to: 'dishasweety715.com',
+      mail to: 'dishasweety715@gmail.com',
            subject: "Jenkins Failure: ${env.JOB_NAME} #${env.BUILD_NUMBER}",
            body: """Hello,
 
